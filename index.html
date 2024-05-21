@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login com JS</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Login</h1>
+
+            <form action="">
+                <input type="text" name="user" id="iuser" placeholder="Seu username">
+                <input type="password" name="password" id="ipassword" placeholder="Sua senha">
+
+                <input type="submit" value="Login">
+
+                <p><input type="checkbox" name="terms" id="iterms"> <label for="iterms">Manter esse dispositivo conectado</label></p>
+            </form>
+        </section>
+    </main>
+
+    <script>
+        let username = document.getElementById('iuser');
+        let password = document.getElementById('ipassword');
+
+        if(username == 'ayaka' && password == 'blackwidowdolucas1'){
+            window.alert('Bem vindo ao sistema!');
+        }
+    </script>
+</body>
+</html>
