@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    section h1 {
+        text-align: center;
+        transform: translateX(-40px);
+        font-size: 3em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+    body {
+        background-image: url('../imagens/freepik-export-20240521160147DZGj.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    section h1 {
+        width: 100%;
+        text-align: center;
+        transform: translateX(30px);
+    }
+    
+    section, main {
+        width: 400px;
+    }
+
+    section input[type = text]{
+        width: 410px;
+    }
+
+    section input[type = password]{
+        width: 410px;
+    }
+
+    section a {
+        width: 410px;
+    }
+    
+    section p {
+        margin-left: -120px;
+    }
+}

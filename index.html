@@ -6,6 +6,7 @@
     <title>Tela de Login com JS</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query.css">
 </head>
 <body>
     <main>
@@ -13,13 +14,13 @@
             <h1>Login</h1>
 
             <form action="">
-                <input type="text" name="user" id="iuser" placeholder="Seu username">
-                <input type="password" name="password" id="ipassword" placeholder="Sua senha">
-
-                <input type="submit" value="Login">
+                <input type="text" name="user" id="iuser" placeholder="Seu username" required>
+                <input type="password" name="password" id="ipassword" placeholder="Sua senha" required>
 
                 <p><input type="checkbox" name="terms" id="iterms"> <label for="iterms">Manter esse dispositivo conectado</label></p>
             </form>
+
+            <a href="#" onclick="login()">Login</a>
         </section>
     </main>
 
@@ -27,8 +28,8 @@
         let username = document.getElementById('iuser');
         let password = document.getElementById('ipassword');
 
-        if(username == 'ayaka' && password == 'blackwidowdolucas1'){
-            window.alert('Bem vindo ao sistema!');
+        function login() {
+            
         }
     </script>
 </body>
